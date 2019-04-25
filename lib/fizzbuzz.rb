@@ -5,6 +5,8 @@ def fizzbuzz(number)
     'fizz'
   elsif multiple_of_5(number)
     'buzz'
+  else
+    number
   end
 end
 
